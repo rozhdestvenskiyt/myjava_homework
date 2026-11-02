@@ -1,0 +1,8 @@
+package task2;
+
+import java.math.BigDecimal;
+
+public interface DepositOperations {
+
+    BigDecimal deposit(BigDecimal balance, BigDecimal amount);
+}
